@@ -1,0 +1,3 @@
+Real-time dashboard data analysis IoT project in progress
+https://docs.google.com/spreadsheets/d/1YLnWNTjsHNhGe65tKdrU_8VRqsAVQmPy4hbqYWpWltw/edit?usp=sharing
+Only intent to use data from kaggle datasets and maybe sensors. User data from visiting 'app' will not be used in anyway for the project or future projects.
