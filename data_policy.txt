@@ -1,0 +1,1 @@
+Only intent to use data from kaggle datasets and sensors. User data from visiting 'app' will not be used in anyway for the project or future projects.
