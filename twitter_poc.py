@@ -1,11 +1,14 @@
 import os
 import tweepy as tw
 import pandas as pd
+import json
 
-consumer_key = 'DdlDuwIKYPcCgzBPbmLMQ1MnZ'
-consumer_secret = 'auQeotTVzwsqEqzFKyN6vFK1ssmBfrs2ljuaGhmKWyXqSgpvwM'
-access_token = '1277000343209906176-iucgGXWza08tcI76mBYpWTTRtIqss9'
-access_token_secret = 'HWeztnZppPPYaHWtTmxHsd4sTYd4DI2IdyABDps8088Xu'
+f = open('/home/pi/twitter_api_creds.json')
+creds = json.load(f)
+consumer_key = creds['consumer_key']
+consumer_secret = creds['consumer_secret']
+access_token = creds['access_token']
+access_token_secret = creds['access_token_secret']
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
