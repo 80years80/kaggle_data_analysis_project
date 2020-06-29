@@ -3,3 +3,9 @@
 # https://docs.google.com/spreadsheets/d/1YLnWNTjsHNhGe65tKdrU_8VRqsAVQmPy4hbqYWpWltw/edit?usp=sharing
 # Goal is to ingest data via kaggle API then perform an EDA
 # Then use GoogleSheets API and other nesseracy elements e.g. sensors to make an IoT project.
+# 
+#
+# 
+# Will try to do a NLP sentiment analysis project of Tweets
+#
+#
